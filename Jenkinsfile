@@ -41,7 +41,7 @@ O5wc/d48RnEWfMRMM6z3q9pfXqFPTy1TO0J7EgcBhK9ytyJ0uFWQ4PxsMQoNpcnO
 MIIDBTCCAe2gAwIBAgIISalXO0NOcwswDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE
 AxMKa3ViZXJuZXRlczAeFw0yNjAyMjgyMDM3MDJaFw0zNjAyMjYyMDQyMDJaMBUx
 EzARBgNVBAMTCmt1YmVybmV0ZXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
-...same cert block...
+...same full cert block as above...
 -----END CERTIFICATE-----''',
                     clusterName: 'EKS-1.us-west-2.eksctl.io',
                     credentialsId: 'k8-token',
