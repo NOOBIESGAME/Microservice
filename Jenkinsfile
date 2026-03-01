@@ -30,7 +30,7 @@ O5wc/d48RnEWfMRMM6z3q9pfXqFPTy1TO0J7EgcBhK9ytyJ0uFWQ4PxsMQoNpcnO
                     serverUrl: 'https://5A735A784998DA1B9508DC40353562D3.gr7.us-west-2.eks.amazonaws.com'
                 ]]) {
                     sh "kubectl apply -f deployment-service.yml -n webapps"
-                    sleep 60
+                    
                 }
             }
         }
@@ -61,7 +61,7 @@ O5wc/d48RnEWfMRMM6z3q9pfXqFPTy1TO0J7EgcBhK9ytyJ0uFWQ4PxsMQoNpcnO
                     namespace: 'webapps',
                     serverUrl: 'https://5A735A784998DA1B9508DC40353562D3.gr7.us-west-2.eks.amazonaws.com'
                 ]]) {
-                    sh "kubectl get all -n webapps"
+                    sh "kubectl get svc -n webapps"
                 }
             }
         }
